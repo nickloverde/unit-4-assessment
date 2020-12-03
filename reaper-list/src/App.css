@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+.Header {
+  width: 100vw;
+  height: 150px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  color: #0ca5a2;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-family: cursive;
+  font-size: 40px;
+  text-shadow: 2px 2px #dbe7e7;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.titles {
   display: flex;
   flex-direction: column;
+}
+
+.input {
+  width: 68vw;
+  height: 40px;
+  border: 2px solid #0ca5a2;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  width: 150px;
+  height: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ReaperList {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.form {
+  display: flex;
+}
+
+.add-btn {
+  background-color: #0ca5a2;
+  border: 2px solid black;
+  margin-left: 20px;
+  height: 46px;
+  width: 150px;
+  font-size: 16px;
+  font-family: cursive;
+  font-weight: bold;
+  text-shadow: 1px 1px #dbe7e7;
+}
+
+.add-btn:hover {
+  background-color: white;
+  color: #0ca5a2;
+  border: 2px solid #0ca5a2;
+}
+
+.menu-icon {
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 3px;
+}
+
+.icons {
+  display: flex;
+}
+
+.check {
+  display: flex;
+  align-items: center;
 }
